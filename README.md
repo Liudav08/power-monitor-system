@@ -36,3 +36,20 @@ A multimeter provides useful reference measurements, but this process focuses on
 | Later PCB with an INA219 IC and a custom microcontroller circuit | In development |
 
 Start with [setup](docs/setup.md), record design choices in [design](docs/design.md), and track progress in the [build log](docs/build-log.md).
+
+## How it works
+
+The INA219 measures the voltage across its shunt resistor to determine current, and measures bus voltage at the load side. The ESP32 reads the sensor over I²C. The intended computer connection is USB serial, with Python receiving the measurements.
+
+Section will be updated in the future as hardware is replaced with ICs and chips. 
+
+## Hardware and software
+
+| Item | Details |
+| --- | --- |
+| Microcontroller | ESP32 development board — TODO: exact model |
+| Sensor | INA219 breakout module — TODO: exact board and shunt value |
+| Test equipment | Variable DC power supply; TODO: reference meter and test loads |
+| Firmware | ESP32 firmware — TODO: framework, library names, and versions |
+| Computer application | Python 3.14 and VSCode 1.141 |
+| PCB design | KiCad 10 and Altium designer 26.10.1 |
