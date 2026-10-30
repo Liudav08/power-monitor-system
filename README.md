@@ -16,7 +16,6 @@ A multimeter provides useful reference measurements, but this process focuses on
 | --- | --- |
 | [docs/setup.md](docs/setup.md) | Exact wiring and instructions for running the code |
 | [docs/design.md](docs/design.md) | Component choices, calculations, and PCB decisions |
-| [docs/testing.md](docs/testing.md) | Test procedures, measurement comparisons, and limitations |
 | [docs/build-log.md](docs/build-log.md) | Dated progress, problems, and fixes |
 | [docs/images/](docs/images/) | Photos, diagrams, and PCB renders |
 | [hardware/](hardware/) | Editable KiCad files |
