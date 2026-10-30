@@ -27,7 +27,7 @@
 
 ### 2026-10-29 - Project and Documnetation Update
 
-- Progress: Voltage and current range tested; input fuse working, V1.2 working, V2.0 in development, python code for V1.2 in development. 
+- Progress: Voltage and current range tested; input fuse working, V1.2 working, V2.0 in development, python code for v1.0 complete; code for V1.2 in development. 
 - Issues: Prototype V1.0 had too many external wire connections; fixed this by soldering components directly on the main board and removing a screw terminal from the project. Fuse selection done via iterative testing using breadboard prototype to determine proepr fuse rating. Decided on 2.5A fast acting fuse. 
 ![KiCAD Schematic V1.2](/docs/images/V1.2%20schematic.png)
 ![KiCAD PCB Layout V1.2](/docs/images/V1.2%20pcb%20layout.png)
